@@ -20,6 +20,7 @@ header div{
 }
 header img {
         width: 100px;
+	cursor: pointer;
 }
 .header-input{
     	flex: .7;
@@ -38,26 +39,28 @@ header img {
 	color: #2874f0;
 	padding: 7px;
 }
-.bt1{
-    	padding: 7px 40px;
-    	border: none;
-    	color: blue;
-	font-family: Arial,sans-serif;
-}
+
 .header-more a{
     	vertical-align: top;
 	font-size: 14px;
+	cursor: pointer;
 }
 .header-cart span{
     	font-weight: 600;
     	font-size: 20px;
+	cursor: pointer;
 }
 .header-more span{
     	color: #bed5fa;
 	font-size: 18px;
+	cursor: pointer;
+}
+.header-cart a{
+    	vertical-align: top;
+    	font-size: 14px;
+    	cursor: pointer;
 }
 .cnt-1{
-    	padding: 10px;
     	display: flex;
     	text-align: center;
     	border-bottom: 1px solid #80808059;
@@ -66,6 +69,7 @@ header img {
 .bas a{
 	font-size: 15px;
 	vertical-align: super;
+	cursor: pointer;
 }
 .mn-pic img{
     	width: 50%;
@@ -80,8 +84,8 @@ header img {
 	vertical-align: middle;
 }
 .card-1{
-    	margin:7px;
 	padding-top: 50px;
+	margin: 0px 5px;
 }
 .cnt-2 img{
     	width: 100%;
@@ -105,11 +109,11 @@ input:focus {
     	justify-content: space-between;
 }
 .card-2{
-    	padding: 20px;
+	text-align: center;
 }
 .card-2 img{
-	width: 100%;
-    	height: 150px;
+	width: 70%;
+    	height: 120px;
 }
 .sug-title{
 	margin: 10px;
@@ -136,9 +140,27 @@ input:focus {
 }
 .images-cnt{
     	text-align: center;
+	color: #388e3c;
+	overflow: auto;
+	margin: 20px;
 }
 .images-cnt span{
     	font-size: 13px;
+	color: black;
+	display: inline-flex;
+}
+.images-cnt p{
+    	font-size: 14px;
+	color: #878787;
+	margin: 5px;
+}
+.images-cnt h3{
+    	display: contents;
+    	font-size: 16px;
+}
+.images-cnt h6{
+    	display: contents;
+    	font-size: 14px;
 }
 .suggest{
 	box-shadow: 0 0 0 1px rgb(0 0 0 / 13%);
@@ -154,4 +176,25 @@ input:focus {
 }
 .card-2 a{
 	text-decoration: none;
+}
+.cd-images {
+  	transition: 0.3s;
+}
+
+.cd-images:hover {
+  	transform: scale(1.1);
+}
+.rate{
+	background: #388e3c;
+    	padding: 3px 12px;
+    	border-radius: 5px;
+    	color: white !important;
+}
+.coin{
+    	border-radius: 50%;
+    	background: yellow;
+    	color: black;
+}
+.post div{
+	margin:10px;
 }
