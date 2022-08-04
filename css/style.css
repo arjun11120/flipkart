@@ -292,9 +292,164 @@ body{
 .bas-1 span ,.fa-solid{
     vertical-align: bottom;
     color:yellow;
-}
+} 	
 .bas-1 a,.bas-1 p{
     font-size: 14px;
     text-decoration: none;
     color: white;
 }
+/*                 LOGIN PAGE                   */
+.lg-body{
+    background-image: url("../images/background.png");
+}
+.lg-body .container{
+    margin: 5%;
+}
+.f-box{
+    min-width: 400px;
+    max-width: 57%;
+    min-height: 500px;
+    max-height: 600px;
+    background: #fff;
+    border-radius: 4px;
+    margin: 0 auto;
+    overflow: auto;
+    display: flex;
+}
+.f-close{
+    position: absolute;
+    right: 21%;
+    top: 62px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 32px;
+}
+.f-right{
+    margin-top: 30px;
+    width: 53%;
+}
+.f-left{
+    background-color: #2874f0;
+    padding: 10px;
+}
+.f-left1{
+    margin: 40px;
+}
+.f-left1 span{
+    font-family:Roboto, Arial, sans-serif;
+    font-size:28px;
+    font-weight:600;
+    color:white;
+}
+.f-left1 p{
+    font-size: 18px;
+    color: #dbdbdb;
+    line-height: 10px;
+}
+.f-left2{
+    text-align: center;
+    margin-top: 152px;
+}
+.input-container {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.ic1 {
+  margin-top: 40px;
+}
+
+.ic2 {
+  margin-top: 30px;
+}
+
+.input {
+    margin-left: 25px;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 100%;
+    outline: 0;
+    padding: 3px 20px 0;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.placeholder {
+    font-size:14px;
+    color: #878787;
+    left: 50px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 20px;
+   font-family:Roboto, Arial, sans-serif;
+}
+
+.input:focus ~ .placeholder,
+.input:not(:placeholder-shown) ~ .placeholder {
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+  
+}
+
+.input:not(:placeholder-shown) ~ .placeholder {
+  color: #a19f9f;
+  
+font-size:16px;
+}
+
+.input:focus ~ .placeholder {
+  color: #878787;
+}
+.input:focus{
+  transition: 0.5s;
+  border-bottom:1px solid #878787;
+  font-family:Roboto, Arial, sans-serif;
+}
+#frgt{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    color: #2874f0;
+    text-decoration:none;
+}
+.privacy-div{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 12px;
+    padding: 10px 25px;
+    font-size: 12px;
+    color: #878787;
+    line-height: 16.8px;
+}
+.privacy-div a{
+   color: #2874f0;
+   text-decoration:none;
+}
+.submit-div input{
+    padding: 15px;
+    width: 100%;
+    background: #fb641b;
+    border: none;
+    color: white;
+    margin-left: 30px;
+}
+.or-req{
+    text-align: center;
+    padding: 15px;
+    width: 91%;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    margin-left: 30px;
+}
+.or-req span{
+    color: #878787;
+    margin-top: 32px;
+}
+.or-req a{
+    display: block;
+    padding-top: 20px;
