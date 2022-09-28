@@ -283,6 +283,7 @@ body{
 }
  .suggest{
      box-shadow: 0 0 0 1px rgb(0 0 0 / 13%);
+     position: relative;
 }
  .post{
      display:flex;
@@ -847,7 +848,7 @@ body{
      border-bottom: 1px solid #f1f1f1;
 }
  .pl-c1{
-     width: 16%;
+    width: 26%;
      overflow: scroll;
      height: 439px;
      margin: 10px;
@@ -876,7 +877,8 @@ body{
      border-radius: 50%;
 }
  .pl-c2-1 img{
-     margin-top: 20px;
+    margin-top: 60px;
+    width: 400px;
 }
  .pl-c2-2 a{
      display: flex;
@@ -891,7 +893,7 @@ body{
      padding: 0;
 }
  .pl-c2-2{
-     justify-content: space-around;
+    justify-content: space-between;
      display: flex;
      margin-block: auto;
 }
@@ -1455,210 +1457,15 @@ body{
      font-size: 12px;
      color: #878787;
 }
-/* @media screen and (min-width: 1440px) {
-     .card-2-min-40 img {
-         width: 70%;
-         height: 250px;
-         margin-top: 20px;
+
+    .pl-c2-2 {
+        display: flex;
+        margin-block: auto;
+        margin-top: 90px;
     }
-     .card-3-min-40 img {
-         width: 70%;
-         height: 170px;
-         margin-top: 20px;
-    }
-}
- @media screen and (min-width: 1024px) {
-     .container{
-         width: 118%;
-    }
-     .foot-cnt {
-         white-space: nowrap;
-         width: 96%;
-    }
-     .header-cart .badge1 {
-         font-size: 9px;
-         position: absolute;
-         top: 3px;
-         right: -8px;
-         padding: 4px 7px;
-    }
-     .pl-c2-2-24 a {
-         display: flex;
-         text-decoration: none;
-         align-items: center;
-    }
-     .ad-1, .ad-2, .ad-3, .ad-4, .ad-5 {
-         margin: 7px;
-    }
-}
- @media screen and (max-width: 768px) {
-     .container{
-         width: 154%;
-    }
-     .ad-1, .ad-2, .ad-3, .ad-4, .ad-5 {
-         margin: 5px;
-    }
-     .card-3-min-40 img {
-         width: 70%;
-         height: 103px;
-         margin-top: 20px;
-    }
-     .header-cart .badge1 {
-         font-size: 9px;
-         position: absolute;
-         top: 3px;
-         right: -242px;
-         padding: 4px 7px;
-         border-radius: 50%;
-         background: red;
-         color: white;
-    }
-     .foot-cnt {
-         width: 93%;
-    }
-}
- @media screen and (max-width: 425px) {
-     .container{
-         width: 248%;
-    }
-     .fc-logo{
-         display: none;
-    }
-     .pl-c1 {
-         display: none;
-    }
-     .product-cnt {
+
+    @media screen and (min-device-width: 768) and (max-device-width: 1024px) { 
+    .insure-body {
          display: block;
-    }
-     .left-product {
-         display: flex;
-         position: relative;
-    }
-     .pl-c2-2 {
-         justify-content: space-around;
-         display: flex;
-         margin-block: auto;
-         position: fixed;
-         bottom: 0;
-    }
-     .pl-c2-2 a {
-         position: fixed;
-         bottom: 0;
-         right: 0;
-         text-decoration: none;
-         padding: 20px 40px;
-         align-items: center;
-    }
-     .header-more,.bas{
-         display: none;
-    }
-     header {
-         justify-content: flex-end;
-    }
-     .header-cart .badge1 {
-         right: -181px;
-    }
-     .l-head1 {
-         display: none;
-    }
-     .header-cart a {
-         display: none;
-    }
-     .pl-c2{
-         margin: 0 auto;
-    }
-}
- */
- @media screen and (max-width: 1440px) {
-     .pl-c2-1 img {
-         margin-top: 20px;
-         width: 80%;
-    }
-     .pro-right-bar{
-         width: 60%;
-    }
-     .pl-c2{
-         width: 77%;
-    }
-}
- @media screen and (max-width: 1024px) {
-     .pl-c2{
-         width: 80%;
-    }
-     .right-product{
-         width: 95%;
-         white-space: nowrap;
-    }
-     .insure-body {
-         display: flex;
-         padding: 10px;
-    }
-     .pl-c2-2 {
-         justify-content: left;
-         display: flex;
-         margin-block: auto;
-    }
-     .card-2-pro img {
-         width: 70%;
-         height: 100px;
-         margin-top: 20px;
-    }
-     .pl-c2-2 h2 {
-         font-size: 12px;
-    }
-     .card-2-pro-1 img {
-         width: 72%;
-         height: 100px;
-         margin-top: 20px;
-    }
-     .c1 h3, .c2 h3, .mus h3, .roa h3 {
-         font-weight: 400;
-         margin: 0px 38px 10px 0px;
-    }
-     .sh-spn {
-         font-size: 10px;
-    }
-     .lrb-spn1 {
-         font-size: 10px !important;
-         color: #969696;
-    }
-     .pr-compare input {
-         width: 9px;
-    }
-     .sh-spn2 {
-         font-size: 15px !important;
-    }
-     .card-4-pro img {
-         width: 60%;
-         height: 160px;
-         margin-top: 20px;
-    }
-     .images-cnt {
-         margin: 5px;
-    }
-}
- @media screen and (max-width: 768px) {
-     .insure-body {
-         display: block;
-         padding: 10px;
-    }
-     .pl-c2-2 {
-         white-space: nowrap;
-    }
-     .pl-c2-2 h2 {
-         font-size: 10px;
-    }
-     .clr-botm span{
-         font-size: 10px;
-    }
-     .main-body {
-         margin-top: 0px;
-    }
-     .pl-c2-1 img {
-         margin-top: 20px;
-         width: 80%;
-    }
-     .pro-right-bar{
-         width: 60%;
     }
 }
