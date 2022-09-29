@@ -1453,19 +1453,113 @@ body{
  .discription p{
      font-size: 13px;
 }
- .discription span{
+.discription span{
      font-size: 12px;
      color: #878787;
 }
 
-    .pl-c2-2 {
-        display: flex;
-        margin-block: auto;
-        margin-top: 90px;
+.pl-c2-2 {
+     display: flex;
+     margin-block: auto;
+     margin-top: 90px;
+}
+.mt5{
+    margin-top: 5px;
+}
+@media(max-device-width: 1024px) { 
+.insure-body {
+    display: block !important;
     }
+.card-2 img {
+    width: 70%;
+   height: 100px;
+	}
+.pl-c2-2 {
+    	margin-top: 30px;
+	}
+}
+@media(max-device-width: 768px) { 
+.pl-c2-1 img {
+    width: 270px;
+}
+.l-head1 {
+    font-size: 10px;
+}
+.pr-compare {
+    display: none;
+}
+.sh-spn2 {
+    font-size: 14px !important;
+}
+.t-spn {
+    font-size: 11px !important;
+}
+.pr-a1 div {
+    margin: 0px 10px;
+    font-size: 12px;
+}
+.card-2 img {
+    width: 70%;
+    height: 85px;
+}
+.pl-c2-1 img {
+    margin-top: 10px;
+}
+.pl-c1 {
+    margin: 10px 4px;
+}
+.card-4 img {
+    height: 130px;
+}
+}
+@media(max-device-width:425px) { 
+.pl-c2-2 a {
+    display: flex;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.left-product {
+    position: relative;
+    height: auto;
+    flex-direction: column;
+}
+.product-cnt {
+    display: block;
+}
+.sug-body {
+    display: block;
+}
+.card-4 img {
+    height: 250px;
+}
+.foot-cnt {
+    display: block;
+}
+.card-2 img {
+    height: 220px;
+}
+.dblock{
+    display:block;
+}
+.dnone{
+    display:none;
+}
+.pl-c2-1 {
+    text-align: center;
+}
+.pl-c2-1 img {
+    margin-top: 40px;
+}
+.pl-c2-2 {
+    justify-content: space-around;
+}
+.pl-c2-2 h2 {
+    font-size: 12px;
+}
+.pl-c2-2 span {
+    font-size: 14px;
+    height: 16px;
+    margin: 6px;
+}
 
-    @media screen and (min-device-width: 768) and (max-device-width: 1024px) { 
-    .insure-body {
-         display: block;
-    }
 }
